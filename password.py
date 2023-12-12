@@ -7,3 +7,6 @@ def password_input():
         else:
             print(f"Mot de passe {password} enregistré")
             return(password) 
+        
+password = password_input()
+print(password)
